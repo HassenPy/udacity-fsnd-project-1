@@ -1,7 +1,7 @@
 # Udacity's fsnd movie tailers website project!
-A personal movie trailers website with minimalist design.
+A personal movie trailers website with minimalist design. [demo](https://hassenpy.github.io/udacity-fsnd-project-1/)
 
-![website snapshot](screen.png/)
+![website snapshot](static/images/screen.png/)
 
 ## Project structure
 
