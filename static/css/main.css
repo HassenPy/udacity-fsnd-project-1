@@ -1,0 +1,115 @@
+/* navbar styles */
+.navbar {
+  background-color: #E5EEC1;
+  padding: 2em 0;
+}
+.navbar .navbar-brand {
+  font-family: 'Bellefair', serif;
+  font-size: 20px;
+  color: #363636;
+}
+
+/* movies list styles */
+.movies {
+  margin: 5em auto;
+  text-align: center;
+}
+.movies li {
+  vertical-align: top;
+}
+.movie-tile {
+  /* mixing padding and width was intended here */
+  padding: 20px;
+  width: 300px;
+  height: auto;
+  transition: background-color 250ms;
+}
+.movie-tile:hover {
+  background-color: #ECF2D1;
+}
+.movie-tile:hover .movie-data{
+  display: block;
+}
+.movie-tile:hover .img-wrapper{
+  display: none;
+}
+.movie-tile:hover h3{
+  opacity: 0;
+}
+.movie-tile h3 {
+  font-family: 'Slabo 27px', serif;
+}
+.movie-tile.favorite{
+  margin-top: -20px;
+}
+.movie-tile.favorite .img-wrapper::before {
+  content: '★';
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: #F9DB43;
+  font-size: 24px;
+}
+.img-wrapper {
+  position: relative;
+  width: 220px;
+  height: 342px;
+}
+
+/* Movie data is visible when a movie is hovered on */
+.movie-data{
+  width: 220px;
+  height: 342px;
+  font-family: "Bellefair";
+  font-size: 18px;
+  display: none;
+}
+.watch{
+  margin-top: 10px;
+  padding: 10px 25px;
+  background: #FFF;
+  border: none;
+}
+.watch:hover{
+  cursor: pointer;
+}
+.rating{
+  padding-top: 25%;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.rating span{
+  color: #2265e8;
+}
+
+/* Modal styles */
+#trailer .modal-dialog {
+  margin: auto;
+  margin-top: 200px;
+  width: 640px;
+  height: 480px;
+  max-width: 95%;
+}
+.hanging-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  z-index: 9001;
+}
+#trailer-video {
+  width: 100%;
+  height: 100%;
+}
+.scale-media {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.scale-media iframe {
+  border: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+}

@@ -1,0 +1,32 @@
+[
+["Lord of the rings trilogy",
+ "\"A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle Earth from the Dark Lord Sauron.-imdb\"",
+ "./static/images/trilogy.jpg",
+ "https://www.youtube.com/watch?v=cnf4h5HT4dc",
+ 8.6
+ ],
+["Harry Potter and the Deathly Hallows",
+ "\"As Harry races against time and evil to destroy the Horcruxes, he uncovers the existence of three most powerful objects in the wizarding world: the Deathly Hallows.\" -imdb",
+ "./static/images/hp.jpg",
+ "https://www.youtube.com/watch?v=_EC2tmFVNNE",
+ 8.0
+ ],
+["The Shawshank Redemption",
+ "\"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.\" -imdb",
+ "./static/images/shaw.jpg",
+ "https://www.youtube.com/watch?v=6hB3S9bIaco",
+ 9.6
+ ],
+["Lion",
+ "\"A five-year-old Indian boy gets lost on the streets of Calcutta, thousands of kilometers from home. He survives many challenges before being adopted by a couple in Australia. 25 years later, he sets out to find his lost family.\" -imdb",
+ "./static/images/lion.jpg",
+ "https://www.youtube.com/watch?v=-RNI9o06vqo",
+ 9.5
+ ],
+["Revolution OS",
+ "\"Revolution OS is a documentary that examines the genesis of the Open Source Movement, and explores and explains the technical and intellectual issues involved in a manner understandable to computer aficionados and non-techheads alike.\" -imdb",
+ "./static/images/revolution.jpg",
+ "https://www.youtube.com/watch?v=k84FMc1GF8M",
+ 9.3
+ ]
+]
