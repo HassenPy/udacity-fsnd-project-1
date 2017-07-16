@@ -40,7 +40,7 @@ main_page_content = '''
     <div class="navbar navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand">Hassen's movie trailers!</a>
+        <span class="navbar-brand">Hassen's movie trailers!</span>
       </div>
     </div>
     </div>
