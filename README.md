@@ -1,4 +1,4 @@
-# Udacity's fsnd movie tailer website project!
+# Udacity's fsnd movie tailers website project!
 A personal movie trailers website with minimalist design.
 
 ![website snapshot](screen.png/)
@@ -15,7 +15,8 @@ file  | Description
 `static/css/bootstrap*.css` | Customized bootstrap styles, find `/static/config.json` for details.
 `static/js/main.js` | Javascript modal functionality
 `static/js/bootstrap*.js` | Customized bootstrap script, find `/static/config.json` for details.
-`fresh_tomatoes.html` | Generated html file.
+`index.html` | Generated html file.
 
 ## Usage
-`python fresh_tomatoes.py`
+clone repo: `git clone https://github.com/HassenPy/udacity-fsnd-project-1`  
+run: `python fresh_tomatoes.py`
