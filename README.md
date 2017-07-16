@@ -1,4 +1,4 @@
-# Hassen's movie trailers!
+# Udacity's fsnd movie tailer website project!
 A personal movie trailers website with minimalist design.
 
 ![website snapshot](screen.png/)
